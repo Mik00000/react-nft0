@@ -6,6 +6,7 @@ import Auctions from "./elements/Auctions";
 import '@mantine/core/styles.css';
 import "@mantine/carousel/styles.css";
 import "./styles/App.css";
+import HowItWorks from "./elements/HowItWorks";
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
         <Banner />
         <Partners />
         <Auctions />
+        <HowItWorks/>
       </BrowserRouter>
     </div>
   );
